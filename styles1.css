@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(to left, #edfeff, #00f2ff);
+  font-family: "Sour Gummy", sans-serif;
+  padding: 50px;
+  color: #21848a;
+  text-align: right;
+}
+
+.title {
+	color: #1c676b;
+	text-align: center;
+}
+img {
+  display: block;
+  margin:left;
+  width: 30%;
+}
+.container {
+  display: flex; /* Aligns children side-by-side */
+  align-items: center; /* Vertically centers the text relative to the image */
+  gap: 20px; /* Adds space between the image and text */
+}
+img {
+  display: block;
+  margin:left;
+  width: 30%;
+}
+.container {
+  display: flex; /* Aligns children side-by-side */
+  align-items: center; /* Vertically centers the text relative to the image */
+  gap: 20px; /* Adds space between the image and text */
+}
+img:hover{
+  transform: scale(0.5);
+  box-shadow: 0 0 50px blue; 
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  background-color: #e3feff;
+  border-color: white;
+}
+
+
+
