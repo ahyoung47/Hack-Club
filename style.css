@@ -1,0 +1,29 @@
+body{
+  font-family: "Sour Gummy", sans-serif;
+  background: linear-gradient(to right, #edfeff, #00f2ff);
+  padding: 50px;
+  color: #21848a;
+  text-align: center;
+}
+.title {
+	color: #1c676b;
+	
+}
+img {
+  display: block;
+  margin:auto;
+  width: 50%;
+}
+img:hover{
+  transform: scale(0.5);
+  box-shadow: 0 0 50px blue; 
+}
+button{
+  width: 100px;
+  height: 50px;
+  font-size: 17px;
+  background-color: #e3feff;
+  border-color: white;
+}
+
+
