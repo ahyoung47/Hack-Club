@@ -13,7 +13,7 @@ body {
 }
 img {
   display: block;
-  margin:center;
+  margin:auto;
   width: 30%;
 }
 
@@ -21,15 +21,14 @@ img:hover{
   transform: scale(0.5);
   box-shadow: 0 0 50px blue; 
 }
-button {
-  display: block;
-  margin: 0 auto;
+button{
   width: 100px;
   height: 50px;
-  font-size: 24px;
+  font-size: 17px;
   background-color: #e3feff;
   border-color: white;
 }
+
 
 
 
